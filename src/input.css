@@ -2,3 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+@layer utilities {
+  .link {
+    @apply font-medium text-blue-900 underline;
+  }
+}
